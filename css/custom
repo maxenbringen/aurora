@@ -1,0 +1,114 @@
+body {
+  background-image: url("../images/stars.jpg");
+  background-size: 100%;
+  background-repeat: none;
+  background-color: #333333;
+  font-size: 1.2em;
+  font-family: "Open Sans";
+  font-color: #202020;
+  margin: 50px 150px 0px;
+  padding: 50px 25px;
+}
+
+#page p {
+  background-color: rgba(253, 255, 223, 0.05);
+  padding: 10px 25px;
+  color: #FBFBFB;
+}
+
+#page p1 {
+  font-size: 1.5em;
+  padding: 5px 0px 30px 5px;
+  display: block;
+}
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+.round img {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+  font-size: 2 em;
+}
+
+a {
+  display: block;
+  width: 120px;
+  font-family: "Verdana";
+  font-size: 1em;
+  color: #FBFBFB;
+  letter-spacing: -0.75px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#navbar a:hover {
+color: #CCCCCC;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#logo h1 {
+  font-size: 4em;
+  font-family: "Hammersmith One" sans-serif;
+  color: #FBFBFB;
+  letter-spacing: 2.5px;
+  line-height: 25px;
+  padding: 25px;
+  display: inline;
+}
+
+#logo h1:hover {
+  -webkit-transition: width 0.5s, 
+  -webkit-transform 1s;
+  transform: scale(1.05);
+}
+
+#columns {
+  width: 100%;
+  height: 75em;
+}
+
+#columns #leftColumn {
+  float: left;
+  width: 55%;
+  max-height: 100%;
+  overflow-y: scroll;
+  }
+
+#columns #rightColumn {
+  float: right;
+  width: 40%;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+#rightColumn img {
+  padding-bottom: 10px;
+}
+
+footer p {
+  font-size: 12px;
+  padding-top: 2em;
+  text-align: center;
+  color: #FBFBFB;
+  display: block;
+}
